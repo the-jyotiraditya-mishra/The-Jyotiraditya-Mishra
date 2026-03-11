@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jyotiraditya Mishra — Web Developer, SEO Analyst, WordPress Specialist, and AI Developer. SEO-optimized websites, scalable web apps, and AI workflows."
+    />
+    <title>Jyotiraditya Mishra | Full Stack Web Developer • SEO • WordPress • AI Tools & Automation • Vibe Coder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Syne:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Background layers -->
+    <div class="bg-noise" aria-hidden="true"></div>
+    <div class="bg-gradient" aria-hidden="true"></div>
+    <div class="bg-blob blob-a" aria-hidden="true"></div>
+    <div class="bg-blob blob-b" aria-hidden="true"></div>
+
+    <!-- Scroll-to-top button -->
+    <button class="scroll-top" aria-label="Scroll to top">
+      <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar" role="banner">
+      <div class="nav-inner">
+        <a href="#home" class="nav-brand" aria-label="Jyotiraditya Mishra – Home">
+          <div class="brand-mark" aria-hidden="true">J</div>
+          <div class="brand-text">
+            <span class="brand-name">Jyotiraditya Mishra</span>
+            <span class="brand-tagline">Full Stack Web Developer · SEO · WordPress · AI Tools & Automation · Vibe Coder</span>
+          </div>
+        </a>
+
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#home"       class="nav-link active">Home</a>
+          <a href="#services"   class="nav-link">Services</a>
+          <a href="#skills"     class="nav-link">Skills</a>
+          <a href="#projects"   class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#resume"     class="nav-link">Resume</a>
+          <a href="#contact"    class="nav-link nav-cta">Contact</a>
+        </nav>
+
+        <button
+          class="nav-toggle"
+          id="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+          aria-controls="nav-mobile"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <!-- Mobile nav -->
+      <div class="nav-mobile" id="nav-mobile" aria-hidden="true">
+        <a href="#home"       class="nav-link">Home</a>
+        <a href="#services"   class="nav-link">Services</a>
+        <a href="#skills"     class="nav-link">Skills</a>
+        <a href="#projects"   class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#resume"     class="nav-link">Resume</a>
+        <a href="#contact"    class="nav-link">Contact</a>
+      </div>
+    </header>
+
+    <main id="main-content">
+
+      <!-- ─── Hero ─────────────────────────────────────────── -->
+      <section id="home" class="section hero">
+        <div class="container hero-grid">
+
+          <div class="hero-left reveal-up">
+            <p class="hero-kicker">
+              <span class="kicker-dot" aria-hidden="true"></span>
+              Puri, Odisha, India · Freelance &amp; Remote
+            </p>
+            <h1 class="hero-title">
+              Hi, I'm<br>
+              <span class="accent">Jyotiraditya<br>Mishra</span>
+            </h1>
+            <p class="hero-subtitle">
+              Full Stack Web Developer · SEO · WordPress · AI Tools & Automation · Vibe Coder
+            </p>
+            <p class="hero-desc">
+              I am a Full Stack Web Developer, SEO Specialist, and WordPress Developer focused on building high-performance websites and scalable digital solutions. I specialize in combining modern web technologies, AI tools, and automation to create efficient, user-focused systems.
+              
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Work</span>
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+              <a href="/JYOTIRADITYA MISHRA Resume wd .pdf" class="btn btn-ghost" download>
+                <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+                <span>Download Resume</span>
+              </a>
+            </div>
+
+            <div class="hero-meta">
+              <div class="hero-meta-item">
+                <span class="meta-label">Core Focus</span>
+                <span class="meta-value">Design · SEO · Performance · Clean Architecture</span>
+              </div>
+              <div class="hero-meta-item">
+                <span class="meta-label">Tech Stack</span>
+                <span class="meta-value">MERN · WordPress · Java · AI Tools</span>
+              </div>
+            </div>
+          </div><!-- /hero-left -->
+
+          <div class="hero-right reveal-up delay-2">
+            <div class="hero-card">
+              <div class="hero-avatar" aria-hidden="true">
+                <div class="avatar-ring"></div>
+                <div class="avatar-core">
+                  <i class="fa-solid fa-user-astronaut"></i>
+                </div>
+              </div>
+
+              <div class="orbit-pills" aria-hidden="true">
+                <span class="pill pill-1"><i class="fa-brands fa-wordpress"></i> WordPress</span>
+                <span class="pill pill-2"><i class="fa-brands fa-react"></i> React</span>
+                <span class="pill pill-3"><i class="fa-brands fa-python"></i> Python</span>
+                <span class="pill pill-4"><i class="fa-solid fa-robot"></i> AI</span>
+                <span class="pill pill-5"><i class="fa-solid fa-magnifying-glass-chart"></i> SEO</span>
+              </div>
+            </div>
+
+            <div class="hero-stats" aria-label="Key stats">
+              <div class="stat-card">
+                <span class="stat-num">4+</span>
+                <span class="stat-label">Years Exp.</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">19+</span>
+                <span class="stat-label">Client Websites</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num">Fast</span>
+                <span class="stat-label">Core Web Vitals</span>
+              </div>
+            </div>
+          </div><!-- /hero-right -->
+
+        </div>
+      </section>
+
+      <!-- ─── Services ──────────────────────────────────────── -->
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-header reveal-up">
+            <p class="section-kicker">Services</p>
+            <h2 class="section-title">Services built for growth</h2>
+            <p class="section-desc">
+              WordPress, SEO, MERN, and AI Automation — end-to-end delivery with a strong
+              focus on performance, clean architecture, and conversion-driven design.
+            </p>
+          </div>
+
+          <div class="grid-3 services-grid">
+            <article class="card service-card reveal-up">
+              <div class="card-icon" aria-hidden="true"><i class="fa-brands fa-wordpress"></i></div>
+              <h3>WordPress Development</h3>
+              <p>Custom WordPress themes, plugins, and performance optimization.</p>
+              <ul class="tag-list" aria-label="Tags">
+                <li>Themes</li><li>Plugins</li><li>Speed</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up delay-1">
+              <div class="card-icon" aria-hidden="true"><i class="fa-solid fa-chart-line"></i></div>
+              <h3>SEO Optimization</h3>
+              <p>Technical SEO, On-Page SEO, Off-Page SEO, and keyword strategy.</p>
+              <ul class="tag-list">
+                <li>Technical SEO</li><li>On-Page</li><li>Off-Page</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up delay-2">
+              <div class="card-icon" aria-hidden="true"><i class="fa-solid fa-layer-group"></i></div>
+              <h3>MERN Stack Development</h3>
+              <p>Full-stack web apps using MongoDB, Express, React, and Node.</p>
+              <ul class="tag-list">
+                <li>MongoDB</li><li>Express</li><li>Node</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up">
+              <div class="card-icon" aria-hidden="true"><i class="fa-brands fa-react"></i></div>
+              <h3>React Development</h3>
+              <p>Modern, responsive web interfaces with smooth UI interactions.</p>
+              <ul class="tag-list">
+                <li>UI Systems</li><li>Responsive</li><li>Performance</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up delay-1">
+              <div class="card-icon" aria-hidden="true"><i class="fa-solid fa-robot"></i></div>
+              <h3>Generative AI Solutions</h3>
+              <p>AI integrations, chatbot systems, and workflow automation.</p>
+              <ul class="tag-list">
+                <li>AI Integrations</li><li>Chatbots</li><li>Automation</li>
+              </ul>
+            </article>
+
+            <article class="card service-card reveal-up delay-2">
+              <div class="card-icon" aria-hidden="true"><i class="fa-brands fa-python"></i></div>
+              <h3>Python &amp; Machine Learning</h3>
+              <p>ML models, data analysis, and automation tools.</p>
+              <ul class="tag-list">
+                <li>ML</li><li>Data</li><li>Automation</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Skills ────────────────────────────────────────── -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header reveal-up">
+            <p class="section-kicker">Skills</p>
+            <h2 class="section-title">A full-stack of capabilities</h2>
+            <p class="section-desc">
+              A blend of development, SEO, and AI skills focused on performance,
+              clean architecture, and measurable outcomes.
+            </p>
+          </div>
+
+          <div class="grid-3 skills-grid">
+            <!-- SEO -->
+            <div class="card skills-card reveal-up">
+              <h3>SEO &amp; Marketing</h3>
+              <div class="skill-row">
+                <span>Search Engine Optimization</span>
+                <div class="skill-bar" data-level="92" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="Search Engine Optimization 92%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>Content Optimization</span>
+                <div class="skill-bar" data-level="86" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" aria-label="Content Optimization 86%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>User Research</span>
+                <div class="skill-bar" data-level="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="User Research 80%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>Technical SEO</span>
+                <div class="skill-bar" data-level="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="Technical SEO 90%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Web Dev -->
+            <div class="card skills-card reveal-up delay-1">
+              <h3>Web Development</h3>
+              <div class="skill-row">
+                <span>HTML</span>
+                <div class="skill-bar" data-level="94" role="progressbar" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100" aria-label="HTML 94%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>CSS</span>
+                <div class="skill-bar" data-level="92" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="CSS 92%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>JavaScript</span>
+                <div class="skill-bar" data-level="90" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript 90%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>React.js</span>
+                <div class="skill-bar" data-level="86" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" aria-label="React.js 86%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="card skills-card reveal-up delay-2">
+              <h3>Backend Development</h3>
+              <div class="skill-row">
+                <span>Node.js</span>
+                <div class="skill-bar" data-level="84" role="progressbar" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100" aria-label="Node.js 84%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>Spring Boot</span>
+                <div class="skill-bar" data-level="72" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" aria-label="Spring Boot 72%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>REST APIs</span>
+                <div class="skill-bar" data-level="82" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="REST APIs 82%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>Java</span>
+                <div class="skill-bar" data-level="74" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100" aria-label="Java 74%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- CMS -->
+            <div class="card skills-card reveal-up">
+              <h3>CMS &amp; E-Commerce</h3>
+              <div class="skill-row">
+                <span>WordPress</span>
+                <div class="skill-bar" data-level="92" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" aria-label="WordPress 92%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>Shopify</span>
+                <div class="skill-bar" data-level="78" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="Shopify 78%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>PHP Backend</span>
+                <div class="skill-bar" data-level="76" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" aria-label="PHP Backend 76%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="card skills-card reveal-up delay-1">
+              <h3>Development Tools</h3>
+              <div class="skill-row">
+                <span>Git</span>
+                <div class="skill-bar" data-level="82" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="Git 82%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>GitHub</span>
+                <div class="skill-bar" data-level="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="GitHub 80%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- AI -->
+            <div class="card skills-card reveal-up delay-2">
+              <h3>AI &amp; Data Science</h3>
+              <div class="skill-row">
+                <span>Python</span>
+                <div class="skill-bar" data-level="84" role="progressbar" aria-valuenow="84" aria-valuemin="0" aria-valuemax="100" aria-label="Python 84%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>Machine Learning</span>
+                <div class="skill-bar" data-level="78" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="Machine Learning 78%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+              <div class="skill-row">
+                <span>AI Models</span>
+                <div class="skill-bar" data-level="80" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="AI Models 80%">
+                  <div class="skill-fill"></div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /skills-grid -->
+        </div>
+      </section>
+
+      <!-- ─── Projects ──────────────────────────────────────── -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-header reveal-up">
+            <p class="section-kicker">Projects</p>
+            <h2 class="section-title">Featured projects</h2>
+            <p class="section-desc">
+              A snapshot of work across machine learning and modern web interfaces.
+            </p>
+          </div>
+
+          <div class="grid-2 projects-grid">
+            <article class="card project-card reveal-up">
+              <div class="project-top">
+                <span class="badge">Python · Machine Learning</span>
+              </div>
+              <h3>Credit Card Fraud Detection System</h3>
+              <p>
+                Built an ML model to detect fraudulent credit card transactions
+                using data preprocessing and classification algorithms.
+              </p>
+              <ul class="tag-list">
+                <li>Python</li><li>Machine Learning</li><li>Data Preprocessing</li>
+              </ul>
+              <button class="btn-details" aria-label="View details for Credit Card Fraud Detection System">
+                <span>Details</span>
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </article>
+
+            <article class="card project-card reveal-up delay-1">
+              <div class="project-top">
+                <span class="badge">React · Frontend</span>
+              </div>
+              <h3>Amazon Clone with Smart Cart System</h3>
+              <p>
+                Built an Amazon-style e-commerce application with a smart cart
+                system and responsive UI.
+              </p>
+              <ul class="tag-list">
+                <li>React</li><li>HTML</li><li>CSS</li>
+              </ul>
+              <button class="btn-details" aria-label="View details for Amazon Clone">
+                <span>Details</span>
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Experience ─────────────────────────────────────── -->
+      <section id="experience" class="section">
+        <div class="container">
+          <div class="section-header reveal-up">
+            <p class="section-kicker">Experience</p>
+            <h2 class="section-title">Work history</h2>
+            <p class="section-desc">
+              A timeline of roles focused on SEO, WordPress development, and scalable web applications.
+            </p>
+          </div>
+
+          <div class="timeline" role="list">
+            <article class="card timeline-card reveal-up" role="listitem">
+              <div class="timeline-top">
+                <h3>Freelance SEO &amp; Web Developer</h3>
+                <time class="timeline-date" datetime="2022/2026">2022 – 2026</time>
+              </div>
+              <ul class="timeline-list">
+                <li>Delivered SEO and website solutions for multiple clients</li>
+                <li>Built WordPress &amp; MERN websites</li>
+                <li>Improved search rankings and organic traffic</li>
+                <li>Managed projects independently end-to-end</li>
+              </ul>
+            </article>
+
+            <article class="card timeline-card reveal-up delay-1" role="listitem">
+              <div class="timeline-top">
+                <h3>Web Developer — Knaptix Pvt Ltd</h3>
+                <time class="timeline-date" datetime="2024-10/2025-04">Oct 2024 – Apr 2025</time>
+              </div>
+              <ul class="timeline-list">
+                <li>Built responsive web apps using WordPress, Shopify, PHP, and MERN</li>
+                <li>Fixed bugs and resolved performance bottlenecks</li>
+                <li>Developed scalable and SEO-friendly architecture</li>
+              </ul>
+            </article>
+
+            <article class="card timeline-card reveal-up delay-2" role="listitem">
+              <div class="timeline-top">
+                <h3>SEO &amp; Web Developer — GVA PRO Technologies</h3>
+                <time class="timeline-date" datetime="2025-06/2025-09">Jun 2025 – Sep 2025</time>
+              </div>
+              <ul class="timeline-list">
+                <li>Worked on US-based SEO projects</li>
+                <li>Improved organic traffic and search rankings</li>
+                <li>Built SEO-optimized WordPress websites</li>
+                <li>Fixed technical SEO issues and Core Web Vitals</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Resume ─────────────────────────────────────────── -->
+      <section id="resume" class="section">
+        <div class="container resume-grid">
+          <div class="card resume-left reveal-up">
+            <p class="section-kicker">Resume</p>
+            <h2 class="section-title">Developer profile</h2>
+            <p class="section-desc">
+              WordPress &amp; SEO Specialist and MERN Stack Developer with 4+ years
+              of experience building high-performance, search-optimized websites
+              and web applications.
+            </p>
+
+            <div class="resume-points">
+              <div class="resume-point">
+                <span class="rp-label">Role</span>
+                <span class="rp-value">Web Developer · SEO Analyst · WordPress Specialist · AI Developer</span>
+              </div>
+              <div class="resume-point">
+                <span class="rp-label">Location</span>
+                <span class="rp-value">Puri, Odisha, India</span>
+              </div>
+              <div class="resume-point">
+                <span class="rp-label">Email</span>
+                <a class="rp-value rp-link" href="mailto:thejyotiradityamishra@gmail.com">
+                  thejyotiradityamishra@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <a href="/JYOTIRADITYA MISHRA Resume wd .pdf" class="btn btn-primary btn-full" download>
+              <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+              <span>Download Resume</span>
+            </a>
+          </div>
+
+          <div class="card resume-right reveal-up delay-1">
+            <h3 class="resume-subtitle">Short bio</h3>
+            <p class="resume-para">
+              Expert in WordPress development, technical SEO, and scalable MERN
+              applications with a strong focus on performance optimization, clean
+              architecture, and conversion-driven design.
+            </p>
+            <div class="highlight-block">
+              <div class="highlight-icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></div>
+              <div>
+                <p class="hl-title">Performance mindset</p>
+                <p class="hl-text">Core Web Vitals, clean UI, and SEO fundamentals baked into every build.</p>
+              </div>
+            </div>
+            <div class="highlight-block">
+              <div class="highlight-icon" aria-hidden="true"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+              <div>
+                <p class="hl-title">AI workflow design</p>
+                <p class="hl-text">Automations and AI integrations that reduce manual effort and speed up delivery.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Education ──────────────────────────────────────── -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header reveal-up">
+            <p class="section-kicker">Education</p>
+            <h2 class="section-title">Academic background</h2>
+            <p class="section-desc">Strong CS fundamentals with consistent academic performance.</p>
+          </div>
+
+          <div class="grid-3 list-grid">
+            <article class="card list-card reveal-up">
+              <div class="list-top">
+                <h3>B.Sc. Computer Science (Hons.)</h3>
+                <span class="badge">CGPA: 9.24</span>
+              </div>
+              <p class="list-sub">S.C.S Autonomous College, Puri</p>
+            </article>
+
+            <article class="card list-card reveal-up delay-1">
+              <div class="list-top">
+                <h3>Plus 2 (Class 11 &amp; 12)</h3>
+                <span class="badge">80%</span>
+              </div>
+              <p class="list-sub">S.C.S Autonomous College</p>
+            </article>
+
+            <article class="card list-card reveal-up delay-2">
+              <div class="list-top">
+                <h3>Class X</h3>
+                <span class="badge">87.66%</span>
+              </div>
+              <p class="list-sub">DAV Public School</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Certifications ─────────────────────────────────── -->
+      <section id="certifications" class="section">
+        <div class="container">
+          <div class="section-header reveal-up">
+            <p class="section-kicker">Certifications</p>
+            <h2 class="section-title">Courses &amp; training</h2>
+            <p class="section-desc">Practical programs across React, digital marketing, AI, and ML.</p>
+          </div>
+
+          <div class="grid-3 list-grid">
+            <article class="card list-card reveal-up">
+              <div class="list-top">
+                <h3>React Developer Course — LernX</h3>
+                <span class="badge">React</span>
+              </div>
+              <p class="list-sub">Hands-on experience building React applications.</p>
+            </article>
+
+            <article class="card list-card reveal-up delay-1">
+              <div class="list-top">
+                <h3>Digital Marketing — LernX</h3>
+                <span class="badge">SEO</span>
+              </div>
+              <p class="list-sub">SEO and content marketing training.</p>
+            </article>
+
+            <article class="card list-card reveal-up delay-2">
+              <div class="list-top">
+                <h3>Technical Training AI &amp; ML — IIT Madras</h3>
+                <span class="badge">AI/ML</span>
+              </div>
+              <p class="list-sub">Hands-on machine learning training.</p>
+            </article>
+
+            <article class="card list-card reveal-up">
+              <div class="list-top">
+                <h3>Generative AI Workshop — IIT Bhubaneswar</h3>
+                <span class="badge">GenAI</span>
+              </div>
+              <p class="list-sub">Practical experience with generative AI models.</p>
+            </article>
+
+            <article class="card list-card reveal-up delay-1">
+              <div class="list-top">
+                <h3>SEO &amp; Content Marketing — IBM</h3>
+                <span class="badge">IBM</span>
+              </div>
+              <p class="list-sub">Keyword research, on-page SEO, technical SEO, and data-driven content strategy.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── Contact ────────────────────────────────────────── -->
+      <section id="contact" class="section">
+        <div class="container contact-grid">
+
+          <div class="card contact-info reveal-up">
+            <p class="section-kicker">Contact</p>
+            <h2 class="section-title">Let's build something smart</h2>
+            <p class="section-desc">
+              Tell me about your product, your traffic goals, or the workflows you
+              want to automate — I'll reply with ideas and next steps.
+            </p>
+
+            <ul class="contact-list" aria-label="Contact details">
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <p class="contact-label">Email</p>
+                  <a href="mailto:thejyotiradityamishra@gmail.com">thejyotiradityamishra@gmail.com</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true"><i class="fa-brands fa-linkedin"></i></div>
+                <div>
+                  <p class="contact-label">LinkedIn</p>
+                  <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jyotiraditya</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true"><i class="fa-brands fa-github"></i></div>
+                <div>
+                  <p class="contact-label">GitHub</p>
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">github.com/jyotiraditya</a>
+                </div>
+              </li>
+              <li class="contact-item">
+                <div class="contact-icon" aria-hidden="true"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <p class="contact-label">Location</p>
+                  <p>Puri, Odisha, India</p>
+                </div>
+              </li>
+            </ul>
+
+            <div class="contact-socials" aria-label="Social links">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="mailto:thejyotiradityamishra@gmail.com" aria-label="Send email">
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="card contact-form-card reveal-up delay-1">
+            <h2>Share a project</h2>
+            <form id="contact-form" novalidate aria-label="Contact form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Name <span class="required" aria-hidden="true">*</span></label>
+                  <input type="text" id="name" name="name" placeholder="Your full name" required autocomplete="name" />
+                  <p class="field-error" id="name-error" role="alert" aria-live="polite"></p>
+                </div>
+                <div class="form-field">
+                  <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
+                  <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+                  <p class="field-error" id="email-error" role="alert" aria-live="polite"></p>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="subject">Subject <span class="required" aria-hidden="true">*</span></label>
+                <input type="text" id="subject" name="subject" placeholder="What do you want to work on?" required />
+                <p class="field-error" id="subject-error" role="alert" aria-live="polite"></p>
+              </div>
+              <div class="form-field">
+                <label for="message">Message <span class="required" aria-hidden="true">*</span></label>
+                <textarea id="message" name="message" rows="4" placeholder="Share a bit about your project, goals, and timeline." required></textarea>
+                <p class="field-error" id="message-error" role="alert" aria-live="polite"></p>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <span>Send Message</span>
+                <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              </button>
+              <p class="form-success" id="form-success" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ─── Footer ────────────────────────────────────────────── -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer-line" aria-hidden="true"></div>
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <p class="footer-name">Jyotiraditya Mishra</p>
+          <p class="footer-tagline">Web Developer · SEO Specialist · AI Developer</p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#resume">Resume</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="footer-socials" aria-label="Social links">
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Jyotiraditya Mishra. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
